@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glowny SYSTEM "zad5.dtd">
+<glowny>
+        <nazwa>Nazwa</nazwa>
+        <dzial>
+                <pracownik plec="m" numer_pesel="99999999999" opis="to jest opis">
+                        <imie>Jan</imie>
+                        <nazwisko>Kowalski</nazwisko>
+                        <data_urodzenia>01.01.1999</data_urodzenia>
+                </pracownik>
+        </dzial>
+</glowny>

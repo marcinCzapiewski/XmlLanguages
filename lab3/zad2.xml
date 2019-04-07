@@ -1,0 +1,6 @@
+<!DOCTYPE glowny SYSTEM "zad2.dtd">
+<glowny>
+    <unikatowy1 idU1="_1">test1</unikatowy1>
+    <unikatowy2 idU2="_2">test2</unikatowy2>
+    <pobrany id="_2">test3</pobrany>
+</glowny>

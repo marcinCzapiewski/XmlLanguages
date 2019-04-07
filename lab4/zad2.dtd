@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT wyniki (przedmiot*) >
+<!ELEMENT przedmiot (nazwa, egzaminator, rodzaj, ocena) >
+<!ELEMENT egzaminator (tytul, imie, nazwisko) >
+<!ELEMENT nazwa (#PCDATA) >
+<!ELEMENT rodzaj (#PCDATA) >
+<!ELEMENT ocena (#PCDATA) >
+<!ELEMENT tytul (#PCDATA) >
+<!ELEMENT imie (#PCDATA) >
+<!ELEMENT nazwisko (#PCDATA) >
+
+<!ENTITY algo "Algorytmy">
+<!ENTITY dr "doktor">
+<!ENTITY w "wykład">
+<!ENTITY db "dobry">
+<!ENTITY prof "profesor">
+<!ENTITY hab "habilitowany">
+<!ENTITY cw "ćwiczenia audytoryjne">
+<!ENTITY dstp "dostateczny plus">
+<!ENTITY mat "Matematyka">
+<!ENTITY mgr "magister">
+<!ENTITY prog "Programowanie">
+<!ENTITY dst "dostateczny">
+<!ENTITY lab "ćwiczenia laboratoryjne">
+<!ENTITY dbp "dobry plus">
+<!ENTITY sk "Sieci komputerowe">
+<!ENTITY inz "inżynier">
+<!ENTITY so "Systemy operacyjne">
+<!ENTITY x "XML">
+<!ENTITY bdb "bardzo dobry">
+
+
+
+
+
+
+
+
+
+
+
+
+
+

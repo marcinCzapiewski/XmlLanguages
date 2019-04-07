@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="lab2.css" ?> 
+
+<studenci>
+    <grupa nr="1">
+        <osoba plec="M">
+            <imie>Marcin</imie>
+            <nazwisko>Czapiewski</nazwisko>
+            <nr_albumu>10000</nr_albumu>
+        </osoba>
+        <osoba plec="K">
+            <imie>Monika</imie>
+            <nazwisko>Piontkowska</nazwisko>
+            <nr_albumu>10001</nr_albumu>
+        </osoba>
+        <osoba plec="M">
+            <imie>Adrian</imie>
+            <nazwisko>Gajosz</nazwisko>
+            <nr_albumu>10002</nr_albumu>
+        </osoba>
+        <osoba plec="K">
+            <imie>Kacper</imie>
+            <nazwisko>Gasiewicz</nazwisko>
+            <nr_albumu>10003</nr_albumu>
+        </osoba>
+        <osoba plec="M">
+            <imie>Marek</imie>
+            <nazwisko>Czapiewski</nazwisko>
+            <nr_albumu>10004</nr_albumu>
+        </osoba>
+    </grupa>
+    <grupa nr="2">
+        <osoba plec="M">
+            <imie>Pankracy</imie>
+            <nazwisko>Bajeczny</nazwisko>
+            <nr_albumu>10005</nr_albumu>
+        </osoba>
+        <osoba plec="M">
+            <imie>Bianor</imie>
+            <nazwisko>Łysy</nazwisko>
+            <nr_albumu>10006</nr_albumu>
+        </osoba>
+        <osoba plec="M">
+            <imie>Klet</imie>
+            <nazwisko>Zabacki</nazwisko>
+            <nr_albumu>10007</nr_albumu>
+        </osoba>
+        <osoba plec="K">
+            <imie>Cyrenia</imie>
+            <nazwisko>Abbacka</nazwisko>
+            <nr_albumu>10008</nr_albumu>
+        </osoba>
+        <osoba plec="K">
+            <imie>Jurata</imie>
+            <nazwisko>Komosa</nazwisko>
+            <nr_albumu>10009</nr_albumu>
+        </osoba>
+    </grupa>
+    <grupa nr="3">
+        <osoba plec="M">
+            <imie>Radzimir</imie>
+            <nazwisko>Miłosierny</nazwisko>
+            <nr_albumu>10010</nr_albumu>
+        </osoba>
+        <osoba plec="M">
+            <imie>Kanizjusz</imie>
+            <nazwisko>Debacki</nazwisko>
+            <nr_albumu>10011</nr_albumu>
+        </osoba>
+        <osoba plec="K">
+            <imie>Abelia</imie>
+            <nazwisko>Kaktus</nazwisko>
+            <nr_albumu>10012</nr_albumu>
+        </osoba>
+        <osoba plec="K">
+            <imie>Maja</imie>
+            <nazwisko>Lebiodka</nazwisko>
+            <nr_albumu>10013</nr_albumu>
+        </osoba>
+        <osoba plec="M">
+            <imie>Arian</imie>
+            <nazwisko>Kabacki</nazwisko>
+            <nr_albumu>10014</nr_albumu>
+        </osoba>
+    </grupa>
+</studenci>

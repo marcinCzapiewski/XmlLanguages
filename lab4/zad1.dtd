@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT stopka ANY>
+
+<!ENTITY autor "Marcin Czapiewski"> 
+<!ENTITY copy "&#169;"> 

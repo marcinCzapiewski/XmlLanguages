@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="cena" type="cena_type"/>
+
+<xsd:simpleType name="cena_type">
+    <xsd:restriction base="xsd:decimal">
+        <xsd:pattern value="[1-9]*\.\d{2}"/>
+    </xsd:restriction> 
+</xsd:simpleType>
+</xsd:schema>
+

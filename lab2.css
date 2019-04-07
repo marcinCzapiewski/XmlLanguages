@@ -1,0 +1,61 @@
+grupa {
+    border-style: solid;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: grey;
+}
+
+nazwisko {
+    font-weight: bold;
+}
+
+osoba {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+osoba[plec="M"]:hover {
+    background-color: cyan;
+}
+
+osoba[plec="K"]:hover {
+    background-color: pink;
+}
+
+grupa[nr="1"] > osoba {
+    background-color:green;
+}
+
+grupa[nr="2"] > osoba {
+    background-color:yellow;
+}
+
+grupa[nr="3"] > osoba {
+    background-color:lightcoral;
+}
+
+osoba[plec="M"] > nazwisko::after {
+    content: url('oznM.png');
+    display: inline-block;
+}
+
+
+osoba[plec="K"] > nazwisko::after {
+    content: url('oznK.png');
+    display: inline-block;
+}
+
+nr_albumu {
+    display: block;
+    font-size: 50%;
+}
+nr_albumu::before {
+    content: "nr indeksu: "
+}

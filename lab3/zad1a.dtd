@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT glowny (podrzedny, podrzedny, podrzedny, podrzedny, podrzedny+)>
+<!ELEMENT podrzedny ANY>

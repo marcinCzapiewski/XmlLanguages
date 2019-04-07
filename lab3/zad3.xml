@@ -1,0 +1,9 @@
+<!DOCTYPE glowny SYSTEM "zad3a.dtd">
+
+<glowny>
+    <podrzedny atrybut1="_1"></podrzedny>
+    <podrzedny atrybut1="_2"></podrzedny>
+    <podrzedny atrybut1="_3"></podrzedny>
+    <podrzedny atrybut1="_4"></podrzedny>
+    <podrzedny atrybut1="_5"></podrzedny>
+</glowny>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="litery" type="litery_type"/>
+
+
+<xsd:complexType name="litery_type">
+    <xsd:simpleContent>
+        <xsd:extension base="wzorzec">
+        <xsd:attribute name="id">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="[a-zA-Z]{1}[a-zA-Z0-9]*"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        </xsd:extension>
+    </xsd:simpleContent>
+</xsd:complexType>
+<xsd:simpleType name="wzorzec">
+
+</xsd:simpleType>
+</xsd:schema>
